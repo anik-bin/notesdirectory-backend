@@ -17,4 +17,4 @@ This is the code for the backend part of the application.
 
 1. You need to have a mongodb database setup locally
 2. You need to generate a JWT secret key which can be a series of random numbers and alphabets or mix of both. You can easily find a key generator on the internet.
-3. If you have not setup the frontend part yet. Here is the [link](https://github.com/anik-bin/notesdirectory-backend)
+3. If you have not setup the frontend part yet. Here is the [link](https://github.com/anik-bin/notesdirectory-frontend)
