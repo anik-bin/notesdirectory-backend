@@ -11,7 +11,7 @@ This is the code for the backend part of the application.
     `PORT=4000`
     `MONGOURI= (PUT YOUR MONGODB DATABASE URL)`
     `JWT_SECRET_KEY= (PUT YOUR JWT SECRET KEY HERE)`
-4. Your frontend now has been setup. You can run it by typing `npm dev`. Now your backend server will run on `port 4000` and you have simultaneously run the frontend part as well which will run on `port 3000`.
+4. Your backend now has been setup. You can run it by typing `npm dev`. Now your backend server will run on `port 4000` and you have simultaneously run the frontend part as well which will run on `port 3000`.
 
 ## Important points
 
