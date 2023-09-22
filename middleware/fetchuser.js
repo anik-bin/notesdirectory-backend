@@ -8,7 +8,7 @@ const fetchuser = (req, res, next) => { // the next function here calls the next
 
     const token = req.header('auth-token'); // the header name is auth-token
     if (!token) {
-        res.status(401).send({ error: 'Please authenticate using valid token' });
+        res.status(401).send({ error: 'Please authenticate using valid a token' });
     }
 
     try {
@@ -16,7 +16,7 @@ const fetchuser = (req, res, next) => { // the next function here calls the next
         req.user = data.user;
         next();
     } catch (error) {
-        res.status(401).send({ error: 'Please authenticate using valid token' });
+        res.status(401).send({ error: 'Please authenticate using valid a token' });
     }
 }
 
